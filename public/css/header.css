@@ -8,17 +8,12 @@ header {
 }
 
 #top-header #user {
-    background-color: hsl(51, 100%, 50%);
+    background-color: hsl(51, 100%, 27%);
 }
 
 #top-header div {
     height: 53px;
 }
-
-/* #top-header #search,
-#top-header #logo,
-#top-header #search input {
-} */
 
 #top-header #logo {
     background-color: #fff;
@@ -36,7 +31,7 @@ header {
     padding: 16px 30px;
     border: 0;
     border-left: 1px solid rgba(0, 0, 0, 0.1);
-    outline-color: hsl(51, 100%, 50%);
+    outline-color: hsl(51, 100%, 27%);
 }
 
 #top-header #search i.fa-search {
@@ -44,4 +39,108 @@ header {
     top: 15px;
     left: 10;
     color: #999;
+}
+
+#top-header #user {
+    padding: 16px 32px;
+}
+
+#top-header #user a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+} 
+
+#top-header #user a:last-child {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    float: right;
+} 
+
+#top-header #user a::after {
+    content: "";
+    display: block;
+    padding: 1px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 30%;
+    transition: 500ms ease-in-out;
+}
+
+#top-header #user a:hover::after {
+    width: 100%;
+}
+
+#top-header #cart {
+    position: relative;
+} 
+
+#top-header #cart i {
+    float: right;
+    display: block;
+    padding-right: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#top-header #cart span {
+    position: absolute;
+    top: 7;
+    right: 25%;
+    background-color: hsl(225, 97%, 61%);;
+    color: #fff;
+    padding: 3px;
+    border-radius: 50%;
+} 
+
+/* nav */
+#bottom-header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#bottom-header nav ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#bottom-header nav ul li {
+    float: left;
+}
+
+#bottom-header nav ul li span {
+    padding: 16px;
+    display: block;
+    cursor: pointer;
+}
+
+#bottom-header nav ul li span:hover {
+    background-color: hsl(225, 97%, 61%);
+    color: #fff;
+}
+
+#bottom-header nav ul li span:hover i {
+    animation: rotate-arrow 1s linear;
+    animation-direction: alternate;
+}
+
+#bottom-header nav ul li span::selection {
+    background-color: #fff;
+}
+
+
+
+@keyframes rotate-arrow {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(160deg);
+    }
 }
