@@ -1,0 +1,47 @@
+
+header {
+    background-color: #fff;
+}
+
+#top-header {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#top-header #user {
+    background-color: hsl(51, 100%, 50%);
+}
+
+#top-header div {
+    height: 53px;
+}
+
+/* #top-header #search,
+#top-header #logo,
+#top-header #search input {
+} */
+
+#top-header #logo {
+    background-color: #fff;
+}
+
+#top-header #search {
+    background-color: #fff;
+    padding: 0;
+    position: relative;
+}
+
+#top-header #search input{
+    width: 100%;
+    height: 100%;
+    padding: 16px 30px;
+    border: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    outline-color: hsl(51, 100%, 50%);
+}
+
+#top-header #search i.fa-search {
+    position: absolute;
+    top: 15px;
+    left: 10;
+    color: #999;
+}
