@@ -1,0 +1,28 @@
+{
+  "name": "apsos",
+  "version": "1.0.0",
+  "description": "Auchi Polytechnic Student Online Sales",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/kh3m/apsos"
+  },
+  "keywords": [
+    "Online",
+    "Sales",
+    "Students",
+    "Buy"
+  ],
+  "author": "Kh3m and David",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13",
+    "multer": "^1.3.1"
+  }
+}
