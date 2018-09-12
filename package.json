@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": "9.2.0",
+    "npm":"5.5.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://www.github.com/kh3m/apsos"
