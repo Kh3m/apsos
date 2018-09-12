@@ -1,0 +1,86 @@
+
+section#banner {
+    height: 500px;
+    background-color: hsl(225, 97%, 61%);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding: 16px 130px;
+}
+
+section#banner div:first-child {
+    color: #fff;
+    /* background: rebeccapurple; */
+    padding: 16px;
+}
+
+section#banner div > h1 {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-weight: bolder; */
+}
+
+section#banner img {
+    /* background: red; */
+    height: 100%;
+    width: 100%;
+}
+
+section#banner #vm {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    border: 2px solid hsl(51, 100%, 27%);
+    transition: 0.2s;
+}
+
+section#banner #vm:hover {
+    background-color: hsl(51, 100%, 27%);
+    border-radius: 5px;
+}
+
+section#category-container {
+    margin: 100px auto;
+    width: 70%;
+}
+
+section#category-container .category div:first-child {
+    position: relative;
+}
+
+section#category-container .category h3 {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: -60%;
+}
+
+section#category-container .category h3 span {
+    background-color: #eee;
+    display: inline-block;
+    padding: 0px 100px;
+}
+
+div.grid-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    
+}
+
+div.grid-container div.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background-color: #fff;
+}
+
+div.grid-container div.grid-item .fa {
+    color: hsl(51, 100%, 27%);
+}
+
+div.grid-container div.grid-item .fa:checked {
+    color: hsl(51, 100%, 27%);
+}
