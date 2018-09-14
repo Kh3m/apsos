@@ -98,6 +98,7 @@ div.grid-item div.grid-item-child {
     right: 0;
     bottom: 0;
     top: 0;
+    z-index: 5;
     opacity: 0;
     transition: opacity 0.3s ease-in;
 }
@@ -120,7 +121,7 @@ div.grid-item div.grid-item-child div.vp a {
 }
 
 div.grid-item div.grid-item-child div.vp {
-    padding: 150px 30px;
+    padding: 30px;
     opacity: 1;
 }
 
@@ -163,5 +164,9 @@ div.grid-item div.grid-item-child div.vp {
 
     div.grid-container {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    div.grid-item div.grid-item-child div.vp {
+        padding: 150px 30px;
     }
 }
