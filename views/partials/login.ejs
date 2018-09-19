@@ -1,0 +1,39 @@
+<div id="login">
+    <div id="signin">
+        <h3>
+            Sign In
+        </h3>
+        <i class="fa fa-close"></i>        
+    </div>
+
+    <div id="form-container">
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="mat-no"> Mat-No </label>
+                <input type="text" placeholder="Matriculation No." pattern="^[a-zA-Z]{3}/\d{9}*" name="mat-no" id="mat-no">
+            </div>
+
+            <div class="form-group">
+                <label for="password"> Password </label>
+                <input type="password" placeholder="Password" name="password" id="password">
+            </div>
+
+            <div id="fp">
+                <a href="#"> Forgot password? </a>
+            </div>
+            
+            <div class="form-group">
+                <input type="checkbox" id="remember_me" value="remember_me"/>
+                <label for="remember_me"> Remember me </label>
+            </div>
+            
+            <button> Login </button>
+        </form>
+    </div>
+
+    <div id="no-acc">
+        <p>
+            <strong>No account yet? </strong> <a href="/signup"> Sign up. </a>
+        </p>
+    </div>
+</div>

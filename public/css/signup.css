@@ -1,0 +1,16 @@
+#main-signup #logo {
+    padding: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+   
+}
+
+#main-signup #logo div {
+    width: 15%;
+    margin: auto;
+}
+
+#main-signup #form-container {
+    width: 70%;
+    margin: 30px auto;
+}
+

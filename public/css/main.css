@@ -126,6 +126,17 @@ footer:last-child #bottom-footer {
     text-align: center;
 }
 
+/* Modal */
+div#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
 @media screen and (min-width: 600px) {
     div#sell a {
         border:1px solid hsl(51, 100%, 27%);

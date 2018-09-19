@@ -13,4 +13,8 @@ app.get("/", (req, res) => {
     res.render("pages/landing");
 });
 
+app.get("/signup",(req,res)=>{
+    res.render("pages/signup")
+})
+
 module.exports = app;
