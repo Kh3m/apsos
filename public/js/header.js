@@ -1,4 +1,6 @@
 const liNav = document.querySelector("#bottom-header nav ul");
+const signInAnchor = document.querySelector("#user a:last-child");
+const modal = document.querySelector("div#modal");
     
 let clickCount = 1;
 
@@ -18,5 +20,9 @@ liNav.addEventListener("click", ( event ) => {
         event.target.children[0].style.transform = "rotate(0deg)";
 
     }
+});
 
+signInAnchor.addEventListener("click", ( event ) => {
+    event.preventDefault();
+    modal.style.display = "block";
 });

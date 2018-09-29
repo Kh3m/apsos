@@ -7,10 +7,64 @@
 #main-signup #logo div {
     width: 15%;
     margin: auto;
+    padding-bottom: 20px;
 }
 
-#main-signup #form-container {
-    width: 70%;
+#main-signup #signup-form-container {
+    width: 100%;
     margin: 30px auto;
 }
+#signup-form-container{
+    margin: 20px;
+}
+#signup-form-container .form-group{   
+    width: 100%;
+    padding: 7px 20px;
+}
 
+#signup-form-container  button {
+    padding: 10px 30px;
+    color: white;
+    margin-top: 7px;
+    background-color: hsl(51, 100%, 27%);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+#signup-form-container  #button button:hover{
+    background-color: hsl(51, 100%, 24%);
+}
+
+#signup-form-container .form-group input,
+#signup-form-container select {
+    width: 80%;
+    margin-top: 3px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 8px;
+}
+
+#signup-form-container .form-group label {
+    float: left;
+    width: 20%;
+    padding: 8px 20px;
+    text-align: right;
+}
+
+#signup-form-container #bottom-content {
+    width: 60%;
+    margin: auto;
+}
+
+#footer-signup {
+    text-align: center;
+    padding: 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#signup-form-container h1 {
+    text-align: center;
+    color: hsl(51, 100%, 27%);
+    /* padding: 16px; */
+    font-size: 32px;
+}

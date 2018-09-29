@@ -13,6 +13,7 @@ body {
 
 a {
     text-decoration: none;
+    color: hsl(51, 100%, 27%);
 }
 
 ul {
@@ -82,14 +83,14 @@ div#sell a:hover {
 }
 
 /* footer */
-footer:last-child {
+#landing-footer:last-child {
     margin-top: 200px;
     background-color: hsl(225, 97%, 61%);
     height: 300px;
     position: relative;
 }
 
-footer:last-child #contact {
+#landing-footer:last-child #contact {
     position: absolute;
     bottom: 20%;
     background-color: #fff;
@@ -99,16 +100,16 @@ footer:last-child #contact {
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-footer:last-child #contact #form-container form .form-group {
+#landing-footer:last-child #contact #form-container form .form-group {
     padding: 10px;
 }
 
-footer:last-child #contact #form-container form input {
+#landing-footer:last-child #contact #form-container form input {
     width: 100%;
     padding: 10px 16px;
 }
 
-footer:last-child #contact #form-container button {
+#landing-footer:last-child #contact #form-container button {
     padding: 10px 16px;
     background-color: hsl(51, 100%, 27%);
     background-color: hsl(225, 97%, 61%);
@@ -118,7 +119,7 @@ footer:last-child #contact #form-container button {
     cursor: pointer;
 }
 
-footer:last-child #bottom-footer {
+#landing-footer:last-child #bottom-footer {
     position: absolute;
     bottom: 0%;
     color: #fff;
@@ -144,7 +145,7 @@ div#modal {
         background-color: transparent;
     }
 
-    footer:last-child #contact {
+    #landing-footer:last-child #contact {
         left: 35%;
         width: 30%;
     }
